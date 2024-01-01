@@ -1,0 +1,13 @@
+.nav-prod {
+  /* width: 100%;
+
+  .navbar {
+    background-color: rgb(247, 247, 247);
+  } */
+
+  .prod {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(247, 247, 247);
+  }
+}
