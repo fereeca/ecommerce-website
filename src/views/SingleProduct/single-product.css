@@ -45,6 +45,12 @@ a {
   }
 }
 
+/* .single-productdetails {
+  background-color: white;
+  padding: 10px;
+  width: 40%;
+} */
+
 .star-rating {
   padding-top: 20px;
 }
@@ -111,8 +117,9 @@ section {
 
 .singleproduct-description {
   /* border-bottom: 0.0625rem solid #e3dddd; */
-  margin: 10px 0;
-  padding: 15px 0 0 0;
+  /* margin: 10px 0; */
+  /* padding: 15px 0 0 0; */
+  padding-bottom: 15px;
   color: #545454;
 }
 
@@ -156,8 +163,8 @@ section {
   gap: 5rem;
 
   .img {
-    width: 500px;
-    height: 430px;
+    width: 510px;
+    height: 450px;
     padding: 10px;
   }
 }

@@ -31,7 +31,7 @@
 
   .nav2 {
     display: flex;
-    justify-content: space-between;
+    gap: 13rem;
     border-bottom: 1px solid rgb(239, 239, 239);
     background-color: white;
 
@@ -62,7 +62,7 @@
   }
 
   .nav3 {
-    height: 160px;
+    height: 120px;
 
     .upper-div {
       height: 50%;

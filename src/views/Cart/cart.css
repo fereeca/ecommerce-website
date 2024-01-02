@@ -128,6 +128,7 @@
   margin: 0 auto;
 
   padding-bottom: 20px;
+  transition: transform 0.2s;
   button {
     background: rgb(17, 153, 119);
     color: #fff;
@@ -141,6 +142,9 @@
     transition: color 0.3s ease;
     letter-spacing: 0.0625rem;
   }
+}
+.continue-shopping:hover {
+  transform: scale(1.009);
 }
 h3 {
   width: 250px;

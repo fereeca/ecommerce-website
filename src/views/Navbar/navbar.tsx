@@ -2,7 +2,7 @@ import { NavLink, Outlet, useLocation } from "react-router-dom";
 
 import "./navbar.css";
 import { useState, useEffect } from "react";
-import { CiUser, CiShoppingCart, CiSearch } from "react-icons/ci";
+import { CiUser, CiShoppingCart } from "react-icons/ci";
 
 function Navbar() {
   const [selectedLink, setSelctedLink] = useState("");
@@ -63,10 +63,10 @@ function Navbar() {
               <div>Sale</div>
             </NavLink>
           </div>
-          <div className="search-container">
+          {/* <div className="search-container">
             <div>Search</div>
             <CiSearch />
-          </div>
+          </div> */}
         </div>
         <div className="nav3">
           <div className="upper-div">
